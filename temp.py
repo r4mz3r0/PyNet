@@ -22,3 +22,6 @@ print(urllib.request.urlopen(url, timeout=30))
 response = urllib.request.urlopen(url, timeout=30)
 json_response = json.loads(response.read())
 
+# Status codes 
+
+response.status 
