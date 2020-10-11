@@ -6,5 +6,6 @@
 # Installations 
 ## requests 
 ```
-pip install requests
+pip3 install requests
+import requests
 ```
