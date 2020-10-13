@@ -23,3 +23,5 @@ import requests
 - dev.twitter.com 
 - authlib.readthedocs.io/en/latest
 
+# Python 
+python -i file.py (To load file to console)
