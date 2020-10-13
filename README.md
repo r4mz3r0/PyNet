@@ -16,6 +16,8 @@ import requests
 - apps.twitter.com 
 - Keys, Access tokens, Consumer key/Access Secret
 - pip3 install requests-authlib
+- Twitter API depracated - no longer works as it should. Take it as an example. 
+
 # Links
 
 - dev.twitter.com 
