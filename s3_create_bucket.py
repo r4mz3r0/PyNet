@@ -1,3 +1,21 @@
+import sys 
+import requests 
+import requests_aws4auth as aws4auth
+import xml.etree.ElementTree as ET 
+import xml.dom.minidom as minidom 
+
+access_id = ''
+access_key = '' 
+region = 'ue-west-2' 
+
+endpoint = 's3.{}.amazonaws.com'.format(region) 
+
+auth = aws4auth.AWS4Auth(access_id, access_key, region, 's3') 
+
+ns = 'http://s3.amazonaws.com/doc/2006-03-01/' 
+
+def xml_pprint(xml_string): 
+    print()
 def create_bucket(bucket): 
     print(bucket) 
     XML = ET.Element('CreateBucketConfiguration') 
@@ -13,4 +31,3 @@ def create_bucket(bucket):
         print('Created bucket {} OK'.format(bucket)) 
     else: 
         xml_pprint(response.text) 
-
