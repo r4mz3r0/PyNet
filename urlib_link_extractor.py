@@ -8,7 +8,7 @@ def extract_links(page):
     return link_regex.findall(page) 
 
 if __name__ == '__main__': 
-    target_url = 'http://www.brave.com'
+    target_url = 'http://www.amazon.com'
     amazon = download_page(target_url) 
     links = extract_links(amazon)
     for link in links: 
