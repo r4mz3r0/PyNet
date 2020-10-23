@@ -32,3 +32,5 @@ python -i file.py (To load file to console)
 
 # Projects 
 - Webscrapping projects 
+
+- beutifulSoup
