@@ -34,3 +34,4 @@ python -i file.py (To load file to console)
 - Webscrapping projects 
 
 - beutifulSoup
+- Scrap internet for images. For example download images of a website. This should have a UI. 
