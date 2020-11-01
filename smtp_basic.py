@@ -1,6 +1,6 @@
 import smtplib 
 
-smtp = smtplib.SMTP('smtp_server') 
+smtp = smtplib.SMTP('smtp.gmail.com', 465) 
 
 try: 
     smtp.sendmail('rgonzalez10026@gmail.com', ['rgonzalez69@ucmerced.edu'], "This is a test e-mail message")
