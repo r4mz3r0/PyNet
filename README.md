@@ -37,3 +37,11 @@ python -i file.py (To load file to console)
 - Scrap internet for images. For example download images of a website. This should have a UI.
 
 # Email
+
+
+
+
+
+# About 
+- Ramiro Gonzalez 
+- ramirogonzalez@linux.com
