@@ -39,7 +39,10 @@ python -i file.py (To load file to console)
 # Email
 
 
-
+# More information 
+- This project was abandoned 11-7-2020 
+- It is difficult to follow along. 
+- Need to learn more networking principles
 
 
 # About 
