@@ -44,7 +44,8 @@ python -i file.py (To load file to console)
 - It is difficult to follow along. 
 - Need to learn more networking principles
 - LCLI
-
+# Updates 
+- 11/26/2020 : This Project is currently temporaly suspended. - Study for COMPTIA Linux+
 # About 
 - Ramiro Gonzalez 
 - ramirogonzalez@linux.com
